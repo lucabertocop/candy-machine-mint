@@ -1,15 +1,19 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #303030;
-  color: #FFFFFF;
+  background-image: url(https://www.dimmidisi.it/wp-content/uploads/2021/06/sfondo-azzurro-chiaro.png);
+    background-size: 500,500;
+    background-position: center;
 }
-
+#root{
+  display: grid;
+  text-align: center;
+  place-content: center;
+  min-height: 20vh;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.parentDiv {  
+  display: flex; 
+  justify-content: center; 
+  align-items: center;} 
