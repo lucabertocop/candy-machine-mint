@@ -5,8 +5,8 @@ body {
 }
 #root{
   display: grid;
-  text-align: center;
-  place-content: center;
+  text-align: right;
+  place-content: right;
   min-height: 20vh;
 }
 code {
@@ -15,5 +15,5 @@ code {
 }
 .parentDiv {  
   display: flex; 
-  justify-content: center; 
-  align-items: center;} 
+  justify-content: left; 
+  align-items: left;} 
